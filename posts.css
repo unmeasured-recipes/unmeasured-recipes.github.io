@@ -864,7 +864,9 @@ nav {
 
 @media (max-width: 767px) {
 
-    
+    .logo-holder img {
+        width: 200px; 
+      }
     /*Hamburger Nav Buttons*/
 
     #navButtons {
@@ -1138,15 +1140,15 @@ nav {
         /*Post Sections*/
 
         #section-width-height {
-            margin: 6px;
+            margin: 24px;
         }
     
         .post-1-section-26 {
-            margin: 6px;
+            margin: 24px;
         }
     
         .post-1-section-27 {
-            margin: 6px;
+            margin: 24px;
         }
     
 
@@ -1227,23 +1229,23 @@ nav {
         }
     
         .post1-section26-bolded-separate span {
-            font-size: 16px;
+            font-size: 24px;
         }
     
         .post-1-section-27 h3 {
-            font-size: 16px;
+            font-size: 24px;
         }
     
         .post-1-section-27 p {
-            font-size: 12px;
+            font-size: 16px;
         }
     
         .list-title span {
-            font-size: 12px;
+            font-size: 16px;
         }
     
         li {
-            font-size: 12px;
+            font-size: 16px;
         }
     
 

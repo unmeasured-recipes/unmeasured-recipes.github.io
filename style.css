@@ -439,6 +439,7 @@ nav {
 
     .read-more {
         font-size: 14px;
+        padding-bottom: 24px;
     }
 
 
@@ -476,6 +477,16 @@ nav {
 
     /* BLOG-RECPIPES */
 
+    .blog-post {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .post-details {
+        margin-left: 0;
+        text-align: center;
+    }
+
     .subtitle-readmore {
         display: flex;
         flex-direction: column;
@@ -489,6 +500,12 @@ nav {
 
     }
 
+    .post-title {
+        padding-top: 24px;
+        padding-bottom: 24px;
+    }
+
+
     .read-more-blog-list {
         margin-bottom: 24px;
     }
@@ -498,3 +515,10 @@ nav {
     }
   }
 
+  @media (max-width: 414px) { 
+    
+    .read-more-blog-list {
+        margin-bottom: 0px;
+    }
+
+  }
