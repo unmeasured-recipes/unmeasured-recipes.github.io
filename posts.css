@@ -309,7 +309,7 @@ nav {
 }
 
 .post1-section8-second {
-    width: 50%;
+    width: auto;
     text-align: right;
     display: flex;
     flex-direction: column;
@@ -863,6 +863,7 @@ nav {
 }
 
 @media (max-width: 767px) {
+
     
     /*Hamburger Nav Buttons*/
 
@@ -934,6 +935,8 @@ nav {
 
 
     /* Title Section */
+
+
     .title-section {
         display: flex;
         flex-direction: column;
@@ -946,6 +949,18 @@ nav {
     }
 
     /*Post Sections*/
+
+    #section-width-height {
+        margin: 12px;
+    }
+
+    .post-1-section-26 {
+        margin: 12px;
+    }
+
+    .post-1-section-27 {
+        margin: 12px;
+    }
 
     #section-width-height h2 {
         font-size: 32px;
@@ -984,6 +999,10 @@ nav {
         font-size: 16px;
         text-align: right;
         padding-left: 48px;
+    }
+
+    .post1-section8-second p{
+       font-size: 12px;
     }
 
     .post1-section16-list ul {
@@ -1117,18 +1136,19 @@ nav {
         }
     
         /*Post Sections*/
-    
-        #section-width-height h2 {
-            font-size: 24px;
+
+        #section-width-height {
+            margin: 6px;
         }
     
-        #section-width-height h3 {
-            font-size: 16px;
+        .post-1-section-26 {
+            margin: 6px;
         }
     
-        #section-width-height p {
-            font-size: 12px;
+        .post-1-section-27 {
+            margin: 6px;
         }
+    
 
 
         .post-1-section-1 h2 {
@@ -1158,7 +1178,7 @@ nav {
         }
 
         .post1-section8-second {
-            width: auto;
+            width: 100%;
             padding-top: 120px;
         }
 
