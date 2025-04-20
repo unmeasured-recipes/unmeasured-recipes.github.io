@@ -953,15 +953,15 @@ nav {
     /*Post Sections*/
 
     #section-width-height {
-        margin: 12px;
+        margin: 24px;
     }
 
     .post-1-section-26 {
-        margin: 12px;
+        margin: 24px;
     }
 
     .post-1-section-27 {
-        margin: 12px;
+        margin: 24px;
     }
 
     #section-width-height h2 {
@@ -986,7 +986,7 @@ nav {
     .section2-left p {
         color: #fff;
         font-size: 16px;
-        padding-right: 48px;
+        padding-right: 24px;
     }
     
     
@@ -1000,7 +1000,7 @@ nav {
         color: #fff;
         font-size: 16px;
         text-align: right;
-        padding-left: 48px;
+        padding-left: 24px;
     }
 
     .post1-section8-second p{
@@ -1163,12 +1163,17 @@ nav {
         
         
         .section2-left p {
-            padding-right: 20px;
+            padding-right: 16px;
         }
         
         
+        .section2-right h3 {
+            padding-left: 16px;
+        }
+
         .section2-right p {
-            padding-left: 20px;
+            padding-left: 16px;
+            padding-top: 32px;
         }
 
         .post-1-section-8 h2 {
