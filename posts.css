@@ -11,18 +11,32 @@ body.loaded {
     opacity: 1;
 }
 
-p {
-    margin: 0px;
-}
-
 h1 {
     margin: 0px;
     padding: 0px;
+    font-size: 3rem;
+    font-weight: 800;
 }
+
+h2 {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 	1.5rem;
+    font-weight: 600;
+}
+
+p {
+    margin: 0px;
+    font-size: 1.125rem;
+}
+
 
 nav li {
     list-style-type: none;
-    font-size: 12px;
+    font-size: 1.125rem;
 }
 
 nav li:hover {
@@ -80,13 +94,11 @@ nav {
     max-width: 100%;
     height: 100vh;
     border-bottom: 2px solid #fff;
-    margin: 24px;
+    margin: 1.5rem;
 }
 
 .post-title h1 {
-    font-size: 48px;
     color: #FFD700;
-    font-weight: bold;
 }
 
 .post-photo {
@@ -106,26 +118,23 @@ nav {
 
 #section-width-height {
     height: 150vh;
-    margin: 24px;
+    margin: 1.5rem;
     border-bottom: 1px solid white;
 }
 
 .post-1-section-1 h2 {
     color: #FFD700;
     width: 50%;
-    font-size: 32px;
 }
 
 .post-1-section-1 p {
     color: #fff;
-    padding-top: 24px;
-    font-size: 24px;
+    padding-top: 1.5rem;
 }
 
 .post-1-section-2 h2 {
     color: #FFD700;
     width: 50%;
-    font-size: 48px;
     margin: 0;
 }
 
@@ -137,36 +146,32 @@ nav {
 
 .section2-left h3 {
     color: #FFD700;
-    font-size: 32px;
 }
 
 .section2-left p {
     color: #fff;
-    font-size: 24px;
+    padding-right: 3rem;
 }
 
 
 .section2-right h3 {
     color: #FFD700;
-    font-size: 32px;
     text-align: right;
 }
 
 .section2-right p {
     color: #fff;
-    font-size: 24px;
     text-align: right;
+    padding-left: 3rem;
 }
 
 .post-1-section-3 h3 { 
     color: #FFD700;
-    font-size: 32px;
     margin: 0px;
 }
 
 .post-1-section-3 p {
     color: #fff;
-    font-size: 24px;
     margin-bottom: 48px;
     margin-top: 24px
 }
@@ -185,21 +190,17 @@ nav {
 
 .post1-section4-first-left h3 {
     color: #FFD700;
-    font-size: 32px;
     margin: 0px;
 }
 
 .post1-section4-first-leftpara{
     color: #fff;
-    font-size: 24px;
     margin-bottom: 24px;
     margin-top: 24px;
 }
 
 .post1-section4-first-lefthighlight {
     color: #FFD700;
-    font-size: 24px;
-    font-weight: bold;
 }
 
 .post1-section4-second-right {
@@ -210,16 +211,13 @@ nav {
 
 .post1-section4-first-rightpara{
     color: #fff;
-    font-size: 24px;
     margin-bottom: 24px;
     margin-top: 24px;
 }
 
 .post1-section4-first-righthighlight {
     color: #FFD700;
-    font-size: 24px;
     margin-bottom: 36px;
-    font-weight: bold;
 }
 
 .post-1-section-5 {
@@ -229,20 +227,17 @@ nav {
 
 .post-1-section-5 h3 {
     color: #FFD700;
-    font-size: 32px;
     margin: 0px;
 }
 
 .post-1-section-5 p {
     color: #fff;
-    font-size: 24px;
     margin-bottom: 24px;
     margin-top: 24px;
 }
 
 .highlighted-phrase-post-1 {
     color: #FFD700;
-    font-weight: bold;
 }
 
 .post-1-section-6 {
@@ -252,13 +247,11 @@ nav {
 
 .post1-section6-left h3 {
     color: #FFD700;
-    font-size: 32px;
     margin: 0px;
 }
 
 .post1-section6-left p{
     color: #fff;
-    font-size: 24px;
     margin-top: 24px;
     width: 85%;
 }
@@ -269,23 +262,19 @@ nav {
 
 .post1-section6-right p {
     color: #FFD700;
-    font-weight: bold;
-    font-size: 32px;
     text-align: right;
     margin-top: 50px;
 }
 
 .post-1-section-7 h3 { 
     color: #FFD700;
-    font-size: 32px;
     margin: 0px;
 }
 
 .post-1-section-7 p {
     color: #fff;
-    font-size: 24px;
     margin-bottom: 48px;
-    margin-top: 24px
+    margin-top: 24px;
 }
 
 .section7-first {
@@ -303,28 +292,24 @@ nav {
 
 .post-1-section-8 h2 {
     color: #FFD700;
-    font-size: 48px;
     margin: 0;
-    width: 85%;
 }
 
 .post1-section8-second {
-    width: auto;
+    width: 85%;
     text-align: right;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-top: 150px;
+    padding-top: 20rem;
 }
 
 .post1-section8-second h3 {
     color: #FFD700;
-    font-size: 32px;
 }
 
 .post1-section8-second p {
     color: #fff;
-    font-size: 24px;
 }
 
 .post-1-section-9 {
@@ -338,20 +323,17 @@ nav {
 
 .post1-section9-first-left h3 {
     color: #FFD700;
-    font-size: 32px;
     margin: 0;
 }
 
 .post1-section9-first-left p {
     color: white;
-    font-size: 24px;
     margin-top: 24px;
     padding-right: 48px;
 }
 
 .post1-section9-first-left .post1-section9-first-lefthighlight {
     color: #FFD700;
-    font-weight: bold;
 }
 
 .post1-section9-first-right {
@@ -361,14 +343,12 @@ nav {
 
 .post1-section9-first-right h3 {
     color: #FFD700;
-    font-size: 32px;
     margin: 0;
 }
 
 
 .post1-section9-first-right p {
     color: white;
-    font-size: 24px;
     margin-top: 24px;
     padding-left: 48px;
 
@@ -376,7 +356,6 @@ nav {
 
 .post1-section9-first-right .post1-section9-first-righthighlight {
     color: #FFD700;
-    font-weight: bold;
 }
 
 .post-1-section-10 {
@@ -386,21 +365,17 @@ nav {
 
 .post-1-section-10 h3{
     color: #FFD700;
-    font-size: 32px;
     margin: 0;
 }
 
 .post-1-section-10 .post-1-section-10-highlight {
     color: #FFD700;
-    font-size: 24px;
-    font-weight: bold;
     margin-top: 36px;
 }
 
 .post-1-section-10 p {
     color: white;
     margin-top: 24px;
-    font-size: 24px;
 }
 
 .post-1-section-11 {
@@ -411,14 +386,12 @@ nav {
 
 .post-1-section-11 h3 {
     color: #FFD700;
-    font-size: 32px;
     margin: 0; 
 }
 
 .post-1-section-11 p {
     color: white;
     margin-top: 24px;
-    font-size: 24px;
 }
 
 .post1-section11-first-left {
@@ -436,20 +409,17 @@ nav {
 
 .post-1-section-12 h2 {
     color: #FFD700;
-    font-size: 48px;
     margin: 0;
     width: 50%;
 }
 
 .post-1-section-12 h3 {
     color: #FFD700;
-    font-size: 32px;
     margin: 0; 
 }
 
 .post-1-section-12 p{
     color: white;
-    font-size: 24px;
     margin-bottom: 24px;
     margin-top: 24px;
 }
@@ -472,14 +442,12 @@ nav {
 
 .post-1-section-13 h3 {
     color: #FFD700;
-    font-size: 32px;
     margin: 0; 
 }
 
 .post-1-section-13 p {
     color: white;
     margin-top: 24px;
-    font-size: 24px;
 }
 
 .post1-section13-row-group {
@@ -494,7 +462,7 @@ nav {
 .post1-section13-second-right {
     text-align: right;
     padding-bottom: 100px;
-    padding-top: 300px;
+    padding-top: 18.75rem;
     width: 100%;
 }
 
@@ -510,70 +478,56 @@ nav {
 
 .post1-section14-left h3 {
     color: #FFD700;
-    font-size: 32px;
     margin: 0px;
 }
 
 .post1-section14-left p{
     color: #fff;
-    font-size: 24px;
     margin-top: 24px;
 }
 
 .post1-section14-right p {
     color: #FFD700;
-    font-weight: bold;
-    font-size: 32px;
     text-align: right;
-    margin-top: 60px;
+    padding-top: 3.375rem;
 }
 
 
 .post1-section15 h3 {
     color: #FFD700;
-    font-size: 32px;
     margin: 0px;
 }
 
 .post1-section15 p {
     color: #fff;
-    font-size: 24px;
-    margin-top: 24px;
+    padding-top: 1.5rem;
 }
 
 .post-1-section-16 h3 {
     color: #FFD700;
-    font-size: 32px;
     margin: 0px;
 }
 
 .post-1-section-16 p {
     color: #fff;
-    font-size: 24px;
-    margin-top: 24px;
+    padding-top: 1.5rem;
 }
 
 .post1-section16-list p {
     color: #FFD700;
-    font-size: 24px;
-    font-weight: bold;
 }
 
 .post1-section16-list ul {
     color: #fff;
-    font-size: 24px;
-    margin-top: 24px;
     width: 50%;
 }
 
 .post1-section16-list li {
-    padding-top: 24px;
+    padding-top: 1.5rem;
 }
 
 .post1-section16-list span {
     color: #FFD700;
-    font-size: 24px;
-    font-weight: bold;
 }
 
 .post-1-section-17 {
@@ -583,41 +537,35 @@ nav {
 
 .post-1-section-17 h3 {
     color: #FFD700;
-    font-size: 32px;
     margin: 0px;
 }
 
 .post-1-section-17 p {
     color: #fff;
-    font-size: 24px;
     margin-top: 24px;
 }
 
 .post1-section17-left {
-    padding-right: 72px;
+    padding-right: 5rem;
 }
 
 .post1-section17-right span {
     color: #FFD700;
-    font-size: 32px;
-    font-weight: bold;
 }
 
 .post1-section17-right { 
-    margin-top: 24px;
-    width: 75%;
+    padding-top: 1.5rem;
+    width: 50%;
     text-align: right;
 }
 
 .post-1-section-18 h3 {
     color: #FFD700;
-    font-size: 32px;
     margin: 0px; 
 }
 
 .post-1-section-18 p {
     color: #fff;
-    font-size: 24px;
     margin-top: 24px;
 }
 
@@ -638,21 +586,18 @@ nav {
 
 .post-1-section-19 h3 {
     color: #FFD700;
-    font-size: 32px;
     margin: 0px; 
 }
 
 .post-1-section-19 p {
     color: #fff;
-    font-size: 24px;
     margin-top: 24px; 
+    text-align: center;
 }
 
 .post1-section19 .italicized {
     text-align: center;
     font-style: italic;
-    font-size: 32px;
-    font-weight: bold;
     color: #FFD700;
 }
 
@@ -664,112 +609,91 @@ nav {
 
 .post1-section20-left h3 {
     color: #FFD700;
-    font-size: 32px;
     margin: 0px;
 }
 
 .post1-section20-left p{
     color: #fff;
-    font-size: 24px;
     margin-top: 24px;
     padding-right: 48px;
 }
 
 .post1-section20-right p {
     color: #FFD700;
-    font-weight: bold;
-    font-size: 32px;
     text-align: right;
-    margin-top: 60px;
+    padding-top: 3.5rem;
 }
 
 .post-1-section-21 h3 {
     color: #FFD700;
-    font-size: 32px;
     margin: 0px;
 }
 
 .post-1-section-21 p{
     color: #fff;
-    font-size: 24px;
     margin-top: 24px;
     width: 50%;
 }
 
 .post-1-section-21 .bolded-phrase-section21 {
     color: #FFD700;
-    font-weight: bold;
 }
 
 .post-1-section-22 h3 {
     color: #FFD700;
-    font-size: 32px;
     margin: 0px;
 }
 
 .post-1-section-22 p{
     color: #fff;
-    font-size: 24px;
     margin-top: 24px;
 }
 
 .post-1-section-22 .bolded-phrase-section22 {
     color: #FFD700;
-    font-weight: bold;
     text-align: center;
     font-style: italic;
-    font-size: 32px;
 }
 
 .post-1-section-23 h3 {
     color: #FFD700;
-    font-size: 32px;
     margin: 0px;
 }
 
 .post-1-section-23 p{
     color: #fff;
-    font-size: 24px;
     margin-top: 24px;
 }
 
 .post-1-section-23 .bolded-phrase-section23 {
     color: #FFD700;
-    font-weight: bold;
     text-align: center;
     font-style: italic;
-    font-size: 32px;
 }
 
 .post-1-section-24 h3 {
     color: #FFD700;
-    font-size: 32px;
     margin: 0px;
 }
 
 .post-1-section-24 p{
     color: #fff;
-    font-size: 24px;
     margin-top: 24px;
 }
 
 .post-1-section-24 .bolded-phrase-section24 {
     color: #FFD700;
-    font-weight: bold;
     text-align: center;
     font-style: italic;
-    font-size: 32px;
 }
 
 .post-1-section-25 h3 {
     color: #FFD700;
-    font-size: 32px;
     margin: 0px;
 }
 
 .post-1-section-25 p{
     color: #fff;
-    font-size: 24px;
     margin-top: 24px;
     width: 50%;
     text-align: right;
@@ -778,8 +702,6 @@ nav {
 
 .post-1-section-25 .bolded-phrase-section25 {
     color: #FFD700;
-    font-weight: bold;
-    font-size: 32px;
 }
 
 .post-1-section-26 {
@@ -790,23 +712,16 @@ nav {
 
 .post-1-section-26 h3 {
     color: #FFD700;
-    font-size: 32px;
     margin: 0px;
 }
 
 .post-1-section-26 p{
     color: #fff;
-    font-size: 24px;
     margin-top: 24px;
 }
 
 .post-1-section-26 span {
     color: #FFD700;
-    font-weight: bold;
-}
-
-.post1-section26-bolded-separate span {
-    font-size: 32px;
 }
 
 .post1-section26-bolded-separate {
@@ -821,20 +736,16 @@ nav {
 
 .post-1-section-27 h3 {
     color: #FFD700;
-    font-size: 32px;
     margin: 0px;
 }
 
 .post-1-section-27 p {
     color: #fff;
-    font-size: 24px;
     margin-top: 24px;
 }
 
 .list-title span {
     color: #FFD700;
-    font-size: 32px;
-    font-weight: bold;  
 }
 
 .list-title {
@@ -843,7 +754,6 @@ nav {
 
 .post-1-section-27 ul {
     color: #fff;
-    font-size: 24px;
 }
 
 .post-1-section-27 li {
@@ -852,17 +762,41 @@ nav {
 
 .post-1-section-27 ul span {
     color: #FFD700;
-    font-weight: bold;
 }
 
 .ending-post {
+    font-size: 2rem;
     color: #FFD700;
-    font-size: 32px;
     font-weight: bold; 
     margin-top: 36px;
 }
 
 @media (max-width: 767px) {
+
+    h1 {
+        font-size: 2rem;
+        font-weight: 800;
+      }
+      
+      h2 {
+        font-size: 1.5rem;
+        font-weight: 700;
+      }
+      
+      h3 {
+        font-size: 1.25rem;
+        font-weight: 600;
+      }
+      
+      p {
+        font-size: 1rem;
+        font-weight: 400;
+      }
+      
+      small {
+        font-size: 0.875rem;
+      }
+
 
     .logo-holder img {
         width: 200px; 
@@ -924,17 +858,6 @@ nav {
         cursor: pointer;
     }
 
-    .title-section {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-
-
-    .about-title {
-        text-align: center;
-    }
-
 
     /* Title Section */
 
@@ -943,6 +866,7 @@ nav {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        margin: 0.75rem;
     }
 
 
@@ -952,109 +876,46 @@ nav {
 
     /*Post Sections*/
 
+
     #section-width-height {
-        margin: 24px;
+        margin: 0.75rem;
     }
 
     .post-1-section-26 {
-        margin: 24px;
+        margin: 0.75rem;
     }
 
     .post-1-section-27 {
-        margin: 24px;
+        margin: 0.75rem;
     }
 
-    #section-width-height h2 {
-        font-size: 32px;
+    .section2-flex {
+        flex-direction: column;
     }
 
-    #section-width-height h3 {
-        font-size: 24px;
+    .section2-right {
+        padding-top: 2rem;
     }
 
-    #section-width-height p {
-        font-size: 16px;
+    .section2-flex .section2-right p {
+        padding: 0;
     }
 
-    .post-1-section-2 h2 {
-        color: #FFD700;
-        font-size: 32px;
-        margin: 0;
-    }
-    
-    
-    .section2-left p {
-        color: #fff;
-        font-size: 16px;
-        padding-right: 24px;
-    }
-    
-    
-    .section2-right h3 {
-        color: #FFD700;
-        font-size: 24px;
-        text-align: right;
-    }
-    
-    .section2-right p {
-        color: #fff;
-        font-size: 16px;
-        text-align: right;
-        padding-left: 24px;
+    .post-1-section-8 {
+        flex-direction: column;
     }
 
-    .post1-section8-second p{
-       font-size: 12px;
+    .post1-section8-second {
+        width: auto;
+        padding-top: 8rem;
     }
-
-    .post1-section16-list ul {
-        font-size: 16px;
-    }
-       
-    .post1-section16-list span {
-        font-size: 16px;
-    }
-
-    .post1-section17-right span {
-        color: #FFD700;
-        font-size: 24px;
-        font-weight: bold;
-    }
-
-    .post-1-section-26 h3 {
-        font-size: 24px;
-    }
-
-    .post-1-section-26 p {
-        font-size: 16px;
-    }
-
-    .post1-section26-bolded-separate span {
-        font-size: 24px;
-    }
-
-    .post-1-section-27 h3 {
-        font-size: 24px;
-    }
-
-    .post-1-section-27 p {
-        font-size: 16px;
-    }
-
-    .list-title span {
-        font-size: 16px;
-    }
-
-    li {
-        font-size: 16px;
-    }
-
-
 
 }
 
 
 @media (max-width: 414px) {
+
+    
     
     /*Hamburger Nav Buttons*/
 
@@ -1125,6 +986,8 @@ nav {
     }
 
 
+
+
         /* Title Section */
         .title-section {
             display: flex;
@@ -1140,25 +1003,15 @@ nav {
         /*Post Sections*/
 
         #section-width-height {
-            margin: 24px;
+            margin: 0.75rem;
         }
     
         .post-1-section-26 {
-            margin: 24px;
+            margin: 0.75rem;
         }
     
         .post-1-section-27 {
-            margin: 24px;
-        }
-    
-
-
-        .post-1-section-1 h2 {
-            width: auto;
-        }
-
-        .post-1-section-2 h2 {
-            width: auto;
+            margin: 0.75rem;
         }
         
         
@@ -1166,92 +1019,43 @@ nav {
             padding-right: 16px;
         }
         
-        
-        .section2-right h3 {
-            padding-left: 16px;
-        }
 
-        .section2-right p {
-            padding-left: 16px;
-            padding-top: 32px;
-        }
-
-        .post-1-section-8 h2 {
-            width: auto;
-        }
 
         .post-1-section-8  {
             flex-direction: column;
         }
 
-        .post1-section8-second {
-            width: 100%;
-            padding-top: 120px;
+        .post1-section13-second-right {
+            padding-top: 19rem;
+            padding-bottom: 0;
         }
 
-        .post-1-section-12 h2 {
-            width: 100%;
-        }
+        .post1-section13-second-lowerleft{
+            margin-bottom: 3rem;
+        }   
 
         .post1-section14-left p{
-            padding-right: 36px;
+            padding-right: 2rem;
         }
         
         .post1-section14-right p {
-            margin-top: 44px;
-        }
-    
-        .post1-section16-list ul {
-            font-size: 12px;
-        }
-           
-        .post1-section16-list span {
-            font-size: 12px;
-        }
-    
-        .post1-section17-right span {
-            color: #FFD700;
-            font-size: 16px;
-            font-weight: bold;
+            padding-top: 2.9rem;
         }
 
-        .post1-section17-right { 
-            margin-top: 18px;
-            width: 200%;
-            text-align: right;
+        .post-1-section-17 {
+            flex-direction: column;
         }
 
+        .post1-section17-left {
+            padding-right: 0;
+        }
+
+        .post1-section17-right {
+            width: auto;
+        }
+    
         .post1-section20-right p {
-            margin-top: 42px;
+            padding-top: 3.1rem;
         }
-    
-        .post-1-section-26 h3 {
-            font-size: 16px;
-        }
-    
-        .post-1-section-26 p {
-            font-size: 12px;
-        }
-    
-        .post1-section26-bolded-separate span {
-            font-size: 24px;
-        }
-    
-        .post-1-section-27 h3 {
-            font-size: 24px;
-        }
-    
-        .post-1-section-27 p {
-            font-size: 16px;
-        }
-    
-        .list-title span {
-            font-size: 16px;
-        }
-    
-        li {
-            font-size: 16px;
-        }
-    
 
 }
