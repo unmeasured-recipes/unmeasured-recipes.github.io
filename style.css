@@ -98,7 +98,7 @@ nav {
     display: flex;
     justify-content: space-between;
     max-width: 100%;
-    gap: 24px;
+    gap: 1.5rem;
 }
 
 .featured-photo-wrapper {
@@ -446,6 +446,7 @@ nav {
         flex-direction: column;
         align-items: center;
         margin: 0.75rem;
+        padding-top: 3rem;
     }
 
     .featured-title {
@@ -458,12 +459,13 @@ nav {
         flex-direction: column;
         align-items: center;
         margin-bottom: 36px;
+        gap: 0.50rem;
     }
 
     .sub-title {
         align-self: initial;
         text-align: center;
-
+        font-size: 10px;
     }
 
     .featured-rightSide {
