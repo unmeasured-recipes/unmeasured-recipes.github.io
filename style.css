@@ -462,6 +462,11 @@ nav {
         gap: 0.50rem;
     }
 
+    .featured-photo-wrapper {
+        height: 48vh;
+        width: auto;
+    }
+
     .sub-title {
         align-self: initial;
         text-align: center;
@@ -518,6 +523,7 @@ nav {
     .page-title h3 {
         text-align: center;
         margin: 2rem;
+        font-size: 16px;
     }
 
     .post-container {
