@@ -798,6 +798,10 @@ nav {
       }
 
 
+      nav {
+        margin: 0.75;
+      }
+
     .logo-holder img {
         width: 200px; 
       }
