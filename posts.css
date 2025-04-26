@@ -5,6 +5,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
+    line-height: 1.5;
 }
 
 body.loaded {
@@ -1062,6 +1063,14 @@ nav {
         padding-top: 8rem;
     }
 
+    .post1-section13-second-right {
+        padding-bottom: 0;
+    }
+
+    .post1-section13-second-lowerleft {
+        width: 75%;
+    }
+
     /* Post 2 */
 
     .title-section-2 {
@@ -1092,8 +1101,9 @@ nav {
     }
 
     .post-photo-2 {
-        width: auto;
-        height: auto;
+        width: 18.75rem;       
+        height: 28.125rem;        ;      
+        overflow: hidden;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -1101,7 +1111,10 @@ nav {
     }
     
     .post-photo-2 img {
-        width: 50%;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        display: block;
     }
 
     .post-2-section-1{
@@ -1141,7 +1154,7 @@ nav {
 
    .post2-section4-right  {
     width: 100%;
-    text-align: justify;
+    text-align: right;
    }
 }
 
