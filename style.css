@@ -103,7 +103,7 @@ nav {
 }
 
 .featured-photo-wrapper {
-    width: 100%;
+    width: 80vh;
     height: 75vh;    
     overflow: hidden;
     display: flex;
@@ -115,9 +115,9 @@ nav {
 .featured-photo-wrapper img {
     object-fit: cover;
     width: 100%;
-    height: auto; 
+    height: 100%; 
     display: block;
-    align-self: flex-end;
+    align-self: center;
 }
 
 .featured-rightSide {
